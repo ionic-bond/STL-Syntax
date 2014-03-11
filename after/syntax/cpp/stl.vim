@@ -276,7 +276,7 @@ syntax keyword cppSTLfunction norm
 syntax keyword cppSTLfunction not1
 syntax keyword cppSTLfunction not2
 syntax keyword cppSTLfunction nth_element
-syntax keyword cppSTLfunction numeric_limits
+syntax keyword cppSTLtype numeric_limits
 syntax keyword cppSTLfunction open
 syntax keyword cppSTLfunction partial_sort
 syntax keyword cppSTLfunction partial_sort_copy
