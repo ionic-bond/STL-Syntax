@@ -845,6 +845,7 @@ if !exists("cpp_no_cpp11")
     syntax keyword cppSTLfunction quick_exit
     syntax keyword cppSTLfunction _Exit
     syntax keyword cppSTLfunction at_quick_exit
+    syntax keyword cppSTLfunction forward
 
     " date and time
     syntax keyword cppSTLnamespace chrono
