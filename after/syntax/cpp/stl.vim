@@ -790,6 +790,10 @@ if !exists("cpp_no_cpp11")
     syntax keyword cppSTLtype integral_constant
     syntax keyword cppSTLtype true_type
     syntax keyword cppSTLtype false_type
+    syntax keyword cppSTLfunction declval
+
+    syntax keyword cppSTLconstant piecewise_construct
+    syntax keyword cppSTLtype piecewise_construct_t
 
     " memory
     syntax keyword cppSTLtype unique_ptr
@@ -914,6 +918,7 @@ if !exists("cpp_no_cpp11")
     syntax keyword cppSTLfunction copy_if
     syntax keyword cppSTLfunction copy_n
     syntax keyword cppSTLfunction move
+    syntax keyword cppSTLfunction move_if_noexcept
     syntax keyword cppSTLfunction move_backward
     syntax keyword cppSTLfunction shuffle
     syntax keyword cppSTLfunction is_partitioned
@@ -1137,6 +1142,7 @@ if !exists("cpp_no_cpp11")
 
     " thread
     syntax keyword cppSTLtype thread
+    syntax keyword cppSTLnamespace this_thread
     syntax keyword cppSTLfunction yield
     syntax keyword cppSTLfunction get_id
     syntax keyword cppSTLfunction sleep_for
