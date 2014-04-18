@@ -1285,14 +1285,14 @@ if version >= 508 || !exists("did_cpp_syntax_inits")
     command -nargs=+ HiLink hi def link <args>
   endif
   HiLink cppSTLfunction     Function
-  HiLink cppSTLfunctional   Type
+  HiLink cppSTLfunctional   Typedef
   HiLink cppSTLconstant     Constant
   HiLink cppSTLnamespace    Constant
-  HiLink cppSTLtype         Type
-  HiLink cppSTLexception    Type
-  HiLink cppSTLiterator     Type
-  HiLink cppSTLiterator_tag Type
-  HiLink cppSTLenum         Type
+  HiLink cppSTLtype         Typedef
+  HiLink cppSTLexception    Exception
+  HiLink cppSTLiterator     Typedef
+  HiLink cppSTLiterator_tag Typedef
+  HiLink cppSTLenum         Typedef
   HiLink cppSTLios          Function
   HiLink cppSTLcast         Statement " be consistent with official syntax
   delcommand HiLink
