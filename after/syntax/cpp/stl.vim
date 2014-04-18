@@ -1,7 +1,7 @@
 " Vim syntax file
 " Language:	C++ STL
 " Maintainer:	Mizuchi <ytj000@gmail.com>
-" Last Change:	16 Oct 2013
+" Last Change:	17 Apr 2014
 "
 " This script is aimed at making STL (and boost) user has the most readable
 " highlight. Not just highlight all STL functions and types. So some syntax
