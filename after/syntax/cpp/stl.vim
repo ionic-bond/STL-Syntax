@@ -489,6 +489,7 @@ syntax keyword cppSTLiterator insert_iterator
 syntax keyword cppSTLiterator istreambuf_iterator
 syntax keyword cppSTLiterator istream_iterator
 syntax keyword cppSTLiterator iterator
+syntax keyword cppSTLiterator ostreambuf_iterator
 syntax keyword cppSTLiterator ostream_iterator
 syntax keyword cppSTLiterator output_iterator
 syntax keyword cppSTLiterator random_access_iterator
